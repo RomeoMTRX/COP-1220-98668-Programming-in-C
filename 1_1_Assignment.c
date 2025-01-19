@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to display personal information with each item on a new line
+// Function that prints personal info on new lines within terminal
 void displayPersonalInfo(const char* name, const char* birthdate, 
                         const char* workPhone, const char* cellPhone) {
     printf("%s\n%s\nwork %s\ncell %s\n", 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to display lyrics with proper formatting
+// Function to print lyrics on new lines within terminal
 void displayLyrics(int testNumber, const char* line1, const char* line2, 
                   const char* line3, const char* line4) {
     printf("Unit Test #%d Output:\n", testNumber);
