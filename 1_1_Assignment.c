@@ -12,7 +12,7 @@ int main() {
     printf("Unit Test #1 Output:\n");
     displayPersonalInfo("Lucinda Potter", "6/24/1992", 
                        "000-000-0101", "000-000-0189");
-    printf("\n");  // Extra line between tests
+    printf("\n");  // Blank space between tests
     
     // Unit Test #2
     printf("Unit Test #2 Output:\n");
