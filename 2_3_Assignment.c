@@ -9,7 +9,7 @@ int isPerfect(int num) {
     
     int sum = 1;  // Start with 1 as it's always a divisor
     
-    // Check divisors up to num/2 (as no number larger than n/2 can be a divisor except n itself)
+    // Check divisors up to num/2 (as no number larger than n/2 can be a divisor except n itself )
     for (int i = 2; i <= num/2; i++) {
         if (num % i == 0) {
             sum += i;
