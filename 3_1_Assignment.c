@@ -6,7 +6,7 @@ int isPerfect(int num) {
     if (num <= 1) {
         return 0;
     }
-    
+     
     int sum = 1;  // Start with 1 as it's always a divisor
     
     // Check divisors up to num/2 (as no number larger than n/2 can be a divisor except n itself)
